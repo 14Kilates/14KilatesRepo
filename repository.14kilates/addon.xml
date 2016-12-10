@@ -1,8 +1,8 @@
 
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.14kilates" name="[COLOR gold]14 Kilates official Repo[/COLOR]" version="1.0.1" provider-name="[COLOR red]YOVANI Y RYAN - KILATES -[COLOR blue] TEAM[/COLOR][/COLOR]">
+<addon id="repository.14kilates" name="[COLOR gold]14 Kilates official Repo[/COLOR]" version="1.0.4" provider-name="[COLOR red]YOVANI Y RYAN - KILATES -[COLOR blue] TEAM[/COLOR][/COLOR]">
 	<extension point="xbmc.addon.repository" name="14 Kilates official Repo">
-		<info compressed="false">https://raw.githubusercontent.com/14kilates/14kilatesrepo/master/addons.xml</info>
+		<info compressed="true">https://raw.githubusercontent.com/14kilates/14kilatesrepo/master/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/14kilates/14kilatesrepo/master/addons.xml.md5</checksum>
 		<datadir zip="true">https://raw.githubusercontent.com/14kilates/14kilatesrepo/master</datadir>
 	</extension>
