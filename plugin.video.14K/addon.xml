@@ -2,7 +2,7 @@
 <addon id="plugin.video.14K"
        name="[COLOR gold]14 KILATES[/COLOR]"
        version="3.0"
-       provider-name="[COLOR red]YOVANI Y RYAN KILATES - TEAM[/COLOR]">
+       provider-name="[COLOR red]YOVANI Y RYAN - KILATES - TEAM[/COLOR]">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
