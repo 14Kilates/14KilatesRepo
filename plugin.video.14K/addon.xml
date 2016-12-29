@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.14K"
        name="[COLOR gold]14 KILATES[/COLOR]"
-       version="2.9"
+       version="3.0"
        provider-name="[COLOR red]YOVANI Y RYAN - KILATES - TEAM[/COLOR]">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
