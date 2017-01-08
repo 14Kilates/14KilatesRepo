@@ -2,7 +2,7 @@
 <addons>
 <addon id="plugin.video.14K"
        name="[COLOR gold]14 KILATES[/COLOR]"
-       version="3.1"
+       version="3.0.1"
        provider-name="[COLOR red]YOVANI Y RYAN - KILATES - TEAM[/COLOR]">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -32,7 +32,7 @@
   </extension>
 </addon>
 
-<addon id="repository.14kilates" name="[COLOR gold]14 Kilates [COLOR blueviolet]Official Repo[/COLOR][/COLOR]" version="1.1" provider-name="[COLOR red]14 KILATES TEAM[/COLOR]">
+<addon id="repository.14kilates" name="[COLOR gold]14 Kilates [COLOR blueviolet]Official Repo[/COLOR][/COLOR]" version="1.2" provider-name="[COLOR red]14 KILATES TEAM[/COLOR]">
 	<requires>
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
