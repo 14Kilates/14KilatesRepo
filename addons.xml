@@ -2,23 +2,24 @@
 <addons>
 <addon id="plugin.video.14K"
        name="[COLOR gold]14 KILATES[/COLOR]"
-       version="3.0"
+       version="3.1"
        provider-name="[COLOR red]YOVANI Y RYAN - KILATES - TEAM[/COLOR]">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
     <import addon="script.module.simple.downloader" version="0.9.4"/>
     <import addon="script.module.beautifulsoup4" />
+	<import addon="script.module.simple.downloader" version="0.9.4"/>
     <import addon="script.module.requests" />
     <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" optional="true" />
-    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.youtube.dl" />
+    <import addon="plugin.video.youtube" />
+    <import addon="script.module.urlresolver" />
     <import addon="script.module.simplejson" />
-     <import addon="script.module.livestreamer" optional="true"/>
-     <import addon="script.module.pyamf" optional="true"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.python.pluginsource" library="lib/default.py" />
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
@@ -31,7 +32,7 @@
   </extension>
 </addon>
 
-<addon id="repository.14kilates" name="[COLOR gold]14 Kilates [COLOR blueviolet]Official Repo[/COLOR][/COLOR]" version="1.0" provider-name="[COLOR red]14 KILATES TEAM[/COLOR]">
+<addon id="repository.14kilates" name="[COLOR gold]14 Kilates [COLOR blueviolet]Official Repo[/COLOR][/COLOR]" version="1.1" provider-name="[COLOR red]14 KILATES TEAM[/COLOR]">
 	<requires>
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
@@ -46,6 +47,19 @@
    		<description>Peliculas en Español - Ingles [COLOR blueviolet]ULTRA HD[/COLOR].</description>
 		<disclaimer></disclaimer>
 		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="script.module.urlresolver" name="URLResolver" version="3.0.26" provider-name="tvaddons.ag, Eldorado">
+	<requires>
+		<import addon="xbmc.python" version="3.0.2.6" />
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.python.pluginsource" library="lib/default.py" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
+		<description lang="en">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
 	</extension>
 </addon>
 </addons>
