@@ -1,30 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.14K"
        name="[COLOR gold]14 KILATES[/COLOR]"
-       version="3.0.1"
+       version="3.0.2"
        provider-name="[COLOR red]YOVANI Y RYAN - KILATES - TEAM[/COLOR]">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
     <import addon="script.module.simple.downloader" version="0.9.4"/>
     <import addon="script.module.beautifulsoup4" />
-	<import addon="script.module.simple.downloader" version="0.9.4"/>
     <import addon="script.module.requests" />
     <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" />
-    <import addon="plugin.video.youtube" />
-    <import addon="script.module.urlresolver" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
     <import addon="script.module.simplejson" />    
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
-  <extension point="xbmc.python.module" library="lib" />
-  <extension point="xbmc.python.pluginsource" library="lib/default.py" />
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary>[COLOR gold]14 KILATES[/COLOR]</summary>
     <description>
-    Peliculas en Español - Ingles [COLOR blueviolet]ULTRA HD[/COLOR] y agradesidos por toda la ayuda que nos brinda el maestro [COLOR red]WOLF[/COLOR].
+    Peliculas en Español - Ingles [COLOR red]ULTRA HD[/COLOR] y agradesidos por toda la ayuda que nos brinda el maestro [COLOR red]WOLF[/COLOR].
 
     </description>
     <platform>all</platform>
