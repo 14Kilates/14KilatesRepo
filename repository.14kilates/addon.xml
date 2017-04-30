@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.14kilates" name="[COLOR gold]14 Kilates [COLOR blueviolet]Official Repo[/COLOR][/COLOR]" version="1.0.1" provider-name="[COLOR red]14 KILATES TEAM[/COLOR]">
+<addon id="repository.14kilates" name="[COLOR gold]14 Kilates [COLOR blueviolet]Official Repo[/COLOR][/COLOR]" version="2.0" provider-name="[COLOR red]14 KILATES TEAM[/COLOR]">
 	<requires>
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
